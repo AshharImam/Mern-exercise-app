@@ -9,7 +9,7 @@ const exerciseSchema = new Schema(
       required: true,
     },
     description: { type: String, required: true },
-    durattion: { type: Number, required: true },
+    duration: { type: Number, required: true },
     date: {
       type: Date,
       required: true,
